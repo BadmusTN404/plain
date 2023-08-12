@@ -1,0 +1,23 @@
+.image_box{
+    width: 450px;
+    height: 500px;
+    background-color: aqua;
+    background: url('/Images/20230605_200153.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.image_box2{
+    width: 300px;
+    height: 350px;
+    background-color: blue;
+    margin-top: 20px;
+    border-radius: 50% ;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}

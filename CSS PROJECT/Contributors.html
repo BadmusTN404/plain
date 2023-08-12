@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contributor</title>
+    <style>
+        /* div p{
+            color: blue;
+        } */
+
+        /* div > p{
+            color: purple;
+        } */
+        /* Note: in adjacent selector come with a "+" sign before p{} in styling*/
+        /* div + p{
+            background-color: blue;
+            /* the result will 
+            skip the ones that are wrap in the parent 
+            and pick the ones that are not wrap in parent */
+        /* } */ 
+        /* the below is the general sibling selector, the styling comes with negation 
+        sign"~"  after the div and before the "P*/
+        div ~ p{
+            background-color: gold;
+        }
+
+
+    </style>
+</head>
+
+
+<body>
+    <!-- <p>The ab-initio paraphrase for contributor</p> -->
+    <h1>Descendant selector </h1>
+    <!-- <div>
+        <p>The paraphrase for Contributor for absolute beginner</p>
+    </div> -->
+   
+    <h1>Child selector</h1>
+        <!-- in styling the child selector the div is used with a greater than sign 
+            ">" before p{} -->
+    <!-- <div>
+        <p>The Child selector in the contributor paraphrase</p>
+    </div> -->
+
+    <h1>Adjacent sibling selector</h1>
+    <!-- adjacent sibling selector is used to select element that is 
+        directly siblings to another specific element outside a div. Note: not inside a div -->
+        <!-- <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Esse qui ea vel, facere minus dignissimos quidem. 
+                 Eligendi nulla culpa repellat, dicta eos accusamus recusandae quae, 
+                fugit rerum perspiciatis doloremque provident.</p>
+        </div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Quia facilis aspernatur mollitia ratione culpa! Ab laboriosam ad illo rem 
+             tempora quos veritatis accusantium, 
+            non debitis esse ex fuga quis quas.</p>
+            <div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Excepturi minima numquam quae. Maiores ad quidem asperiores eveniet expedita modi,
+                    praesentium neque obcaecati.
+                    Repudiandae esse autem labore quibusdam incidunt provident eum?</p>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Atque beatae placeat velit rem nobis? Ea tempore quae et quos! Temporibus,
+                 accusamus error. 
+                Pariatur, vitae reprehenderit? Consequuntur explicabo quia id. Debitis?</p> -->
+   <h1>General sibling selector</h1>
+   <!-- the general sibling selector select all element that are direct 
+    siblings to a specific element i.e element that are directly outside the div -->
+
+   <div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Esse qui ea vel, facere minus dignissimos quidem. 
+         Eligendi nulla culpa repellat, dicta eos accusamus recusandae quae, 
+        fugit rerum perspiciatis doloremque provident.</p>
+</div>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+     Quia facilis aspernatur mollitia ratione culpa! Ab laboriosam ad illo rem 
+     tempora quos veritatis accusantium, 
+    non debitis esse ex fuga quis quas.</p>
+    <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Excepturi minima numquam quae. Maiores ad quidem asperiores eveniet expedita modi,
+            praesentium neque obcaecati.
+            Repudiandae esse autem labore quibusdam incidunt provident eum?</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Atque beatae placeat velit rem nobis? Ea tempore quae et quos! Temporibus,
+         accusamus error. 
+        Pariatur, vitae reprehenderit? Consequuntur explicabo quia id. Debitis?</p>
+    
+</body>
+</html>

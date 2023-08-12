@@ -1,0 +1,46 @@
+.card{
+    width: 450px;
+    height: 500px;
+    background-color: blueviolet;
+}
+/* meaning of max-width is that from the given number 
+downward apply the said factor, above the given
+factor go back to initial factor i.e below the 480px 
+the background color will be cyan and above that,
+it will be blueviolet 
+while min-width is opposite*/
+/* @media(max-width:480px){ */
+    /* @media(max-width:485px){
+    .card{
+        background-color: cyan;
+    }
+}
+
+@media(min-width:760px){
+    .card{
+        background-color: greenyellow;
+    }
+}
+
+@media(min-width:1224px) {
+    .card{
+        background-color: darkred;
+    }
+} */
+
+/*Below are other means of using media querry*/
+@media screen and (max-width:480px) {
+    .card{
+        background-color: #d31616;
+    }
+    
+}
+@media screen and (min-width:768px) {
+    .card{
+        background-color: rgb(10, 10, 240);
+    }
+    
+}
+
+/* Translate to Only, if u want a particular
+ media screen i.e @media screen only*/
